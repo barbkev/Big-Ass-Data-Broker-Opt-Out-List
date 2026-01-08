@@ -1,0 +1,549 @@
+brokers:
+  - name: Google Search removal
+    category: search engine
+    priority_markers: []
+    opt_out_urls:
+      - https://support.google.com/websearch/troubleshooter/3111061
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "## Search Engines"
+  - name: Bing Search removal
+    category: search engine
+    priority_markers: []
+    opt_out_urls:
+      - https://www.microsoft.com/en-ca/concern/bing
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "## Search Engines"
+  - name: Google Results About You
+    category: search engine
+    priority_markers: []
+    opt_out_urls:
+      - https://support.google.com/websearch/answer/12719076
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "Google has a free service called Results About You"
+  - name: BeenVerified
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://www.beenverified.com/app/optout/search
+      - https://www.beenverified.com/app/optout/address-search
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 BeenVerified"
+  - name: CheckPeople
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://checkpeople.com/privacy-rights
+      - https://checkpeople.com/opt-out
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 CheckPeople"
+  - name: ClustrMaps
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://clustrmaps.com/
+      - https://clustrmaps.com/bl/opt-out
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 ClustrMaps"
+  - name: Intelius
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://suppression.peopleconnect.us/login
+      - mailto:support@mailer.intelius.com
+      - tel:1-888-245-1655
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 Intelius"
+  - name: MyLife
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://www.mylife.com
+      - https://www.mylife.com/ccpa/index.pubview
+      - mailto:privacy@mylife.com
+    requires_phone: true
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 📞 MyLife"
+  - name: Nuwber
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://nuwber.com/
+      - https://nuwber.com/removal/link
+      - mailto:support@nuwber.com
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 Nuwber"
+  - name: PublicDataUSA
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://www.publicdatausa.com/
+      - https://www.publicdatausa.com/remove.php
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 PublicDataUSA"
+  - name: Radaris
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://radaris.com/
+      - https://radaris.com/control-privacy
+      - mailto:customer-service@radaris.com
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 Radaris"
+  - name: SmartBackgroundChecks
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://www.smartbackgroundchecks.com/
+      - https://www.smartbackgroundchecks.com/optout
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 SmartBackgroundChecks"
+  - name: Spokeo
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://www.spokeo.com/search
+      - https://www.spokeo.com/optout
+    requires_phone: false
+    requires_id: false
+    requires_paid: true
+    source: "### 💐 💰 Spokeo"
+  - name: That's Them
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://thatsthem.com/
+      - https://thatsthem.com/optout
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### 💐 That’s Them"
+  - name: White Pages
+    category: people search
+    priority_markers:
+      - "💐"
+    opt_out_urls:
+      - https://www.whitepages.com/
+      - https://www.whitepages.com/suppression_requests
+      - https://support.whitepages.com/hc/en-us/articles/115010106908-How-do-I-edit-or-remove-a-personal-listing
+      - https://support.whitepages.com/hc/en-us/requests/new
+    requires_phone: true
+    requires_id: false
+    requires_paid: true
+    source: "### 💐 📞 💰 White Pages"
+  - name: Acxiom
+    category: people search
+    priority_markers:
+      - "☠"
+    opt_out_urls:
+      - https://www.acxiom.com/privacy/fr/
+      - https://www.acxiom.com/privacy/it/
+      - https://www.acxiom.com/privacy/es/
+      - https://www.acxiom.com/optout/
+      - https://privacyportal.onetrust.com/webform/342ca6ac-4177-4827-b61e-19070296cbd3/6896cf25-6953-4500-9c69-5a8fb6f6f932
+      - mailto:Datenschutz@acxiom.com
+      - tel:1-877-774-2094
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### ☠ Acxiom"
+  - name: Advanced Background Checks
+    category: people search
+    priority_markers:
+      - "☠"
+    opt_out_urls:
+      - https://www.advancedbackgroundchecks.com
+      - https://www.advancedbackgroundchecks.com/removal
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### ☠ Advanced Background Checks"
+  - name: Ancestry.com
+    category: people search
+    priority_markers:
+      - "☠"
+    opt_out_urls:
+      - https://www.ancestry.com/account/
+      - mailto:privacy@ancestry.com
+      - https://support.ancestry.com/s/reportissue?language=en_US
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### ☠ Ancestry.com"
+  - name: FamilyTreeNow
+    category: people search
+    priority_markers:
+      - "☠"
+    opt_out_urls:
+      - https://www.familytreenow.com/optout
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### ☠ FamilyTreeNow"
+  - name: FastPeopleSearch.com
+    category: people search
+    priority_markers:
+      - "☠"
+    opt_out_urls:
+      - https://www.fastpeoplesearch.com/removal
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### ☠ FastPeopleSearch.com"
+  - name: USPhoneBook
+    category: people search
+    priority_markers:
+      - "☠"
+    opt_out_urls:
+      - https://www.usphonebook.com/opt-out/
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### ☠ USPhoneBook"
+  - name: Archives
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.archives.com/search/ancestor/checkout
+      - https://www.archives.com/Optout
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Archives"
+  - name: Best of History Websites
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://besthistorysites.net/
+      - https://besthistorysites.net/opt-out
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Best of History Websites"
+  - name: Classmates.com
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://help.classmates.com/hc/en-us/articles/115002224171-How-can-I-cancel-my-membership-
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Classmates.com"
+  - name: Cyber Background Checks
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.cyberbackgroundchecks.com/
+      - https://www.cyberbackgroundchecks.com/removal
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Cyber Background Checks"
+  - name: Facecheck
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://facecheck.id/
+      - https://facecheck.id/Face-Search/RemoveMyPhotos
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Facecheck"
+  - name: FamilySearch
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.familysearch.org/
+      - https://www.familysearch.org/search/
+      - https://submit-irm.trustarc.com/services/validation/b8d6e704-e5b1-42a0-9f86-bbdec35939a1
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### FamilySearch"
+  - name: FreePeopleDirectory
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.freepeopledirectory.com
+      - https://www.spokeo.com/optout
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### FreePeopleDirectory"
+  - name: HudwayGlass
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://hudwayglass.com/
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### HudwayGlass"
+  - name: InfoTracer
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.infotracer.com
+      - https://infotracer.com/optout/
+      - https://members.infotracer.com/tspec/shared/assets/data_opt_out_form.pdf
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### InfoTracer"
+  - name: NeighborReport
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://neighbor.report/
+      - https://neighbor.report/remove
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### NeighborReport"
+  - name: Ofsearch
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://ofsearch.org/control/privacy
+      - mailto:contactus@ofsearch.org
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Ofsearch"
+  - name: PeopleByName
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.peoplebyname.com/people
+      - https://www.peoplebyname.com/remove.php
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### PeopleByName"
+  - name: PeopleSearchNow
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.peoplesearchnow.com/opt-out
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### PeopleSearchNow"
+  - name: PimEyes
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://pimeyes.com/
+      - https://pimeyes.com/en/opt-out-request-form
+    requires_phone: false
+    requires_id: true
+    requires_paid: false
+    source: "### 🎫 PimEyes"
+  - name: PrivateEye
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.privateeye.com/
+      - https://www.privateeye.com/removal
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### PrivateEye"
+  - name: PrivateRecords
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.privaterecords.net/optOut/name/landing
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### PrivateRecords"
+  - name: PropertyRecs
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://dashboard.propertyrecs.com/opt-out
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### PropertyRecs"
+  - name: Rehold
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://rehold.com/
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Rehold"
+  - name: Searchbug
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.searchbug.com/
+      - https://www.searchbug.com/contact-us.aspx
+    requires_phone: false
+    requires_id: false
+    requires_paid: true
+    source: "### 💰 Searchbug"
+  - name: SearchPeopleFree
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.searchpeoplefree.com/
+      - https://www.searchpeoplefree.com/opt-out
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### SearchPeopleFree"
+  - name: SearchQuarry
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.searchquarry.com/
+      - https://members.searchquarry.com/removeMyData/
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### SearchQuarry"
+  - name: Social Catfish
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://socialcatfish.com
+      - https://socialcatfish.com/opt-out/
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Social Catfish"
+  - name: SpyFly
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.spyfly.com
+      - https://www.spyfly.com/help-center/remove-my-public-record
+      - mailto:support@spyfly.com
+    requires_phone: false
+    requires_id: false
+    requires_paid: true
+    source: "### 💰 SpyFly"
+  - name: TruePeopleSearch.com
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.truepeoplesearch.com/removal
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### TruePeopleSearch.com"
+  - name: TruePeopleSearch.net
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://truepeoplesearch.net/search
+      - https://docs.google.com/forms/d/e/1FAIpQLSeCPggzv4iXE20iUjcr6vdVWxBOblCyGwDLcO-jZA5j2YF5fQ/viewform
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### TruePeopleSearch.net"
+  - name: United States Phone Book
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.unitedstatesphonebook.com/search.php
+      - https://www.unitedstatesphonebook.com/contact.php
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### United States Phone Book"
+  - name: UnMask
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://unmask.com/
+      - https://unmask.com/opt-out/
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### UnMask"
+  - name: USA People Search
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://www.usa-people-search.com/
+      - https://www.usa-people-search.com/removal
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### USA People Search"
+  - name: USA-Official
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://usa-official.com/
+      - https://usa-official.com/remove.php
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### USA-Official"
+  - name: Veripages
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://veripages.com/
+      - https://veripages.com/inner/control-privacy
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### Veripages"
+  - name: VoterRecords
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://voterrecords.com/
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### VoterRecords"
+  - name: ZoomInfo
+    category: people search
+    priority_markers: []
+    opt_out_urls:
+      - https://privacyrequest.zoominfo.com/remove/verify
+    requires_phone: false
+    requires_id: false
+    requires_paid: false
+    source: "### ZoomInfo"
