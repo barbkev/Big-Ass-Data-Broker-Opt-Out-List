@@ -8,6 +8,50 @@
 | 📞      | must pick up a (gasp!) phone                         |
 | 💰      | site charges money for access or removal (whaaaat?)  |
 
+## Structured inventory & CLI
+
+This repo includes a structured broker inventory in `data/brokers.json` along with a small CLI in `tools/optout_cli.py` for listing, filtering, and exporting to-do queues.
+
+### CLI usage
+
+List the full inventory:
+
+```bash
+python tools/optout_cli.py list
+```
+
+Filter by requirements (e.g., brokers that do **not** require a phone call):
+
+```bash
+python tools/optout_cli.py filter --requires-phone=false
+```
+
+Export a CSV queue for automation tooling:
+
+```bash
+python tools/optout_cli.py export --format=csv --output=todo.csv
+```
+
+Combine filters for priority/requirements:
+
+```bash
+python tools/optout_cli.py export --priority=crucial --requires-id=false --format=json
+```
+
+### Extending the inventory
+
+Add new brokers to `data/brokers.json` as objects with the following fields:
+
+- `name`: Human-readable broker name.
+- `category`: Inventory grouping (e.g., `people_search`, `marketing`).
+- `priority`: `crucial`, `high`, or `normal`.
+- `requires_phone`: `true` if a phone call is required.
+- `requires_id`: `true` if an ID upload is required.
+- `requires_payment`: `true` if payment is required.
+- `opt_out_url`: Primary opt-out URL.
+
+The CLI accepts `--inventory` to point at alternate JSON files if you want to maintain your own extended list.
+
 This list, also known as BADBOOL, was started in September 2017 and was most recently updated on on December 18, 2025 to note that the list is primarily U.S.-based, and on November 22, 2025 to remove Dataveria, Verecor, and Vericora, and to provide additional information on corrections and pull requests we accept.
 
 How to use this page: We recommend opting out of high-priority sites first. If you only have the time and patience for 13, start with sites marked 💐. If you can do 19 (total), go to sites marked ☠ as well. Once you’ve completed all of those, you can start to work your way through the rest of the list. We’ve reordered this list by priority for your convenience. 
