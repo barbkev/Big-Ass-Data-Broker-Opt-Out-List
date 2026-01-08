@@ -1,0 +1,146 @@
+[
+  {
+    "name": "BeenVerified",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://www.beenverified.com/app/optout/search"
+  },
+  {
+    "name": "CheckPeople",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://checkpeople.com/opt-out"
+  },
+  {
+    "name": "ClustrMaps",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://clustrmaps.com/bl/opt-out"
+  },
+  {
+    "name": "Intelius",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": true,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://suppression.peopleconnect.us/login"
+  },
+  {
+    "name": "MyLife",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": true,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://www.mylife.com/ccpa/index.pubview"
+  },
+  {
+    "name": "Nuwber",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://nuwber.com/removal/link"
+  },
+  {
+    "name": "PublicDataUSA",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://www.publicdatausa.com/remove.php"
+  },
+  {
+    "name": "Radaris",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://radaris.com/control-privacy"
+  },
+  {
+    "name": "SmartBackgroundChecks",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://www.smartbackgroundchecks.com/optout"
+  },
+  {
+    "name": "Spokeo",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": true,
+    "opt_out_url": "https://www.spokeo.com/optout"
+  },
+  {
+    "name": "That's Them",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://thatsthem.com/optout"
+  },
+  {
+    "name": "White Pages",
+    "category": "people_search",
+    "priority": "crucial",
+    "requires_phone": true,
+    "requires_id": false,
+    "requires_payment": true,
+    "opt_out_url": "https://www.whitepages.com/suppression_requests"
+  },
+  {
+    "name": "Acxiom",
+    "category": "marketing",
+    "priority": "high",
+    "requires_phone": true,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://www.acxiom.com/optout/"
+  },
+  {
+    "name": "FamilyTreeNow",
+    "category": "people_search",
+    "priority": "high",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": false,
+    "opt_out_url": "https://www.familytreenow.com/optout"
+  },
+  {
+    "name": "PimEyes",
+    "category": "face_search",
+    "priority": "normal",
+    "requires_phone": false,
+    "requires_id": true,
+    "requires_payment": false,
+    "opt_out_url": "https://pimeyes.com/en/opt-out-request-form"
+  },
+  {
+    "name": "Searchbug",
+    "category": "people_search",
+    "priority": "normal",
+    "requires_phone": false,
+    "requires_id": false,
+    "requires_payment": true,
+    "opt_out_url": "https://www.searchbug.com/contact-us.aspx"
+  }
+]
